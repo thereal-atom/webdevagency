@@ -1,47 +1,23 @@
-# Astro Starter Kit: Minimal
+# the web development agency
 
-```sh
-npm create astro@latest -- --template minimal
-```
+I get it.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+You're trying to run a start-up with a low budget and you need a website.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+We can help you with that.
 
-## 🚀 Project Structure
+We specialize in creating budget-friendly websites for start-ups, empowering you to convert prospects into loyal customers. Let us help you transform your leads into revenue-generating relationships.
 
-Inside of your Astro project, you'll see the following folders and files:
+## What Can We Do For You
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Transforming businesses online, our agency creates websites for every stage, no matter the starting point.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- Front-end website
+- Back-end API
+- Infrastructure and hosting
+- Database provisioning
+- Monitoring and observability
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+There are just some of the services we offer in order to take your business from start-up to a tech unicorn.
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+We offer flexible pricing options, ensuring our services align with diverse budgets and goals.
