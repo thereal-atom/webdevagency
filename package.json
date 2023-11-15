@@ -37,5 +37,8 @@
   },
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-vercel": "^3.0.3"
+  }
 }
