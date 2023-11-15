@@ -19,7 +19,7 @@
             <h1 class="title">Chat With Us</h1>
             <div class="mt-4">
                 {#if form?.success}
-                    <p class="text-green-400 mt-4 text-sm">We received your message! We will get back to you soon :)</p>
+                    <p class="text-green-400 text-sm">We received your message! We will get back to you soon :)</p>
                 {:else if form?.error}
                     <p class="text-red-500 text-sm">There was an error sending your message: {form.error}</p>
                 {/if}
