@@ -51,6 +51,7 @@
                     placeholder="johndoe@gmail.com"
                     name="email"
                     type="text"
+                    required
                 />
                 <label 
                     class="label"    
@@ -62,6 +63,7 @@
                     class="input min-h-[120px]"
                     name="message"
                     placeholder="I would like a website for my business..."
+                    required
                 />
                 <button class="w-[500px] rounded-md mt-2 py-2 bg-black text-white transition-all max-sm:w-full hover:opacity-80 disabled:opacity-50 max-sm:text-sm">
                     Submit
