@@ -6,7 +6,13 @@
 
 <div class="flex flex-col items-center py-32 max-xl:px-48 max-xl:py-24 max-md:p-24 max-sm:p-16 max-[380px]:p-12">
     <div class="flex flex-col w-[768px] max-md:w-full">
-        <div class="flex flex-col">
+        <a
+            class="flex flex-row bg-[#6366F1] bg-opacity-80 p-4 rounded-md text-white border border-solid border-[#6366F1] max-sm:text-xs max-sm:p-3"
+            href="/free"
+        >
+            Click here if you want a FREE website.
+        </a>
+        <div class="flex flex-col mt-8">
             <h1 class="title">The Web Development Agency</h1>
             <div class="flex flex-col mt-4">
                 <p class="paragraph">I get it.</p>

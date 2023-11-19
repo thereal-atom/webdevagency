@@ -7,9 +7,7 @@ export const actions = {
 
         const data = {
             email: form.get("email"),
-            name: form.get("name"),
-            message: form.get("message"),
-            free: false,
+            free: true,
         };
 
         try {
