@@ -1,8 +1,11 @@
 import type { Actions } from "@sveltejs/kit";
-import config from "$lib/config";
+// import config from "$lib/config";
 
 export const actions = {
-    default: async ({ request }) => {
+    default: async ({
+        request,
+        locals,
+    }) => {
         const form = await request.formData();
 
         const data = {
@@ -13,13 +16,19 @@ export const actions = {
         };
 
         try {
-            await fetch(config.webhookUrl, {
-                method: "POST",
-                body: JSON.stringify(data),
-            });
+            const { error } = await locals.supabase
+                .from("message")
+                .insert({
+                    email: data.email?.toString() || "",
+                    message: data.message?.toString() || "",
+                    isFreeRequest: false,
+                    name: data.name?.toString(),
+                });
+
+            if (error) throw error;
 
             return { success: true };
-        } catch (err) {
+        } catch (err: unknown) {
             console.error(err);
 
             return { error: err.message };
