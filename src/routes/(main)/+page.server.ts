@@ -1,5 +1,4 @@
 import type { Actions } from "@sveltejs/kit";
-// import config from "$lib/config";
 
 export const actions = {
     default: async ({

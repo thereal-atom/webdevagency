@@ -1,20 +1,23 @@
 import type { Actions } from "@sveltejs/kit";
-import config from "$lib/config";
 
 export const actions = {
-    default: async ({ request }) => {
+    default: async ({
+        request,
+        locals,
+    }) => {
         const form = await request.formData();
 
-        const data = {
-            email: form.get("email"),
-            free: true,
-        };
-
         try {
-            await fetch(config.webhookUrl, {
-                method: "POST",
-                body: JSON.stringify(data),
-            });
+            const { error } = await locals.supabase
+                .from("message")
+                .insert({
+                    email: form.get("email")?.toString() || "",
+                    message: "",
+                    isFreeRequest: true,
+                    name: "",
+                });
+
+            if (error) throw error;
 
             return { success: true };
         } catch (err) {
