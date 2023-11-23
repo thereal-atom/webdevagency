@@ -1,16 +1,16 @@
 # the web development agency
 
-I get it.
+Whether you're a start-up with a limited budget
 
-You're trying to run a start-up with a low budget and you need a website.
+Or an individual who wants a good website
 
-We can help you with that.
+We can create you a website that makes you money.
 
-We specialize in creating budget-friendly websites for start-ups, empowering you to convert prospects into loyal customers. Let us help you transform your leads into revenue-generating relationships.
+Using our technical specialty, we will craft an experience that your users will fall in love with.
 
 ## What Can We Do For You
 
-Transforming businesses online, our agency creates websites for every stage, no matter the starting point.
+We tailor our service to each client's needs at any stage of business
 
 - Front-end website
 - Back-end API
@@ -18,6 +18,12 @@ Transforming businesses online, our agency creates websites for every stage, no 
 - Database provisioning
 - Monitoring and observability
 
-There are just some of the services we offer in order to take your business from start-up to a tech unicorn.
+These are just some of the services we offer in order to take your business from start-up to a tech unicorn.
+
+## How much does it cost
 
 We offer flexible pricing options, ensuring our services align with diverse budgets and goals.
+
+So whether you want a one-off website, or you want to work with us long-term, we have something for you.
+
+And we will work hard to offer the lowest price possible while still delivering a high quality product.
