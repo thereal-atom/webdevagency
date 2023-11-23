@@ -11,7 +11,7 @@
         <div class="flex flex-col mt-4">
             <p class="paragraph">Whether you're a <span class="font-3">start-up with a limited budget</span></p>
             <p class="paragraph">Or an <span class="font-3">individual who wants a good website</span></p>
-            <p class="paragraph">We can create you <span class="font-3">a website that makes you money</span>.</p>
+            <p class="paragraph">We can create you <span class="font-3">a website that makes you money</span> for as little as <span class="font-3">$100</span>.</p>
             <p class="paragraph">Using our technical specialty, we will craft <span class="font-3">an experience that your users will fall in love with</span>.</p>
         </div>
     </div>
