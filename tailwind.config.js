@@ -4,8 +4,8 @@ export default {
     theme: {
         extend: {
             "colors": {
-                "paragraph-text": "#797979",
-                "title-text": "#3D4152",
+                "paragraph-text": "#44485c",
+                "title-text": "#15161c",
                 "accent": "#6366F1",
             }
         },

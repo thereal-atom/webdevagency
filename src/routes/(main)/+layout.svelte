@@ -11,6 +11,8 @@
                     <img
                         src="x.svg"
                         alt="X"
+                        width=18
+                        height=18
                     />
                 </a>
                 <a
@@ -21,6 +23,8 @@
                     <img
                         src="github.svg"
                         alt="github"
+                        width=18
+                        height=18
                     />
                 </a>
             </div>

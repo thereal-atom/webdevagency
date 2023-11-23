@@ -25,15 +25,17 @@
 <hr />
 <div class="flex flex-col">
     <h1 class="title">What Can We Do For You</h1>
-    <p class="paragraph">We tailor our service to each client's needs at <span class="font-3">any stage of business</span></p>
-    <ul class="ml-4">
-        <li class="paragraph">Front-end website</li>
-        <li class="paragraph">Back-end API</li>
-        <li class="paragraph">Infrastructure and hosting</li>
-        <li class="paragraph">Database provisioning</li>
-        <li class="paragraph">Monitoring and observability</li>
-    </ul>
-    <p class="paragraph"><span class="font-3">These are just some of the services we offer in order to take your business from start-up to a tech unicorn.</span></p>
+    <div class="flex flex-col mt-4">
+        <p class="paragraph">We tailor our service to each client's needs at <span class="font-3">any stage of business</span></p>
+        <ul class="ml-4">
+            <li class="paragraph">Front-end website</li>
+            <li class="paragraph">Back-end API</li>
+            <li class="paragraph">Infrastructure and hosting</li>
+            <li class="paragraph">Database provisioning</li>
+            <li class="paragraph">Monitoring and observability</li>
+        </ul>
+        <p class="paragraph"><span class="font-3">These are just some of the services we offer to take your business from start-up to a tech unicorn.</span></p>
+    </div>
 </div>
 <hr />
 <div class="flex flex-col">
@@ -46,11 +48,12 @@
 
 <style lang="postcss">
     .title {
-        @apply text-xl font-extrabold text-title-text max-sm:text-lg max-[380px]:text-base;
+        @apply text-2xl font-extrabold mb-4 text-title-text max-sm:text-lg max-[380px]:text-base;
+        vertical-align: middle;
     }
 
     .paragraph {
-        @apply text-paragraph-text my-4 max-sm:text-sm max-[380px]:text-xs;
+        @apply text-paragraph-text my-4 max-sm:text-sm max-[380px]:text-xs inline-block;
     }
 
     li {
@@ -62,6 +65,6 @@
     }
 
     .font-3 {
-        @apply text-lg;
+        @apply text-xl mt-2;
     }
 </style>
