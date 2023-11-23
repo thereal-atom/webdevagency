@@ -64,7 +64,7 @@
             Submit
         </button>
     </form>
-    <p class="text-sm text-title-text mt-4">Or talk to us on <a class="opacity-60 font-black text-accent" href="https://twitter.com/oscarfalll" target="_blank">twitter</a> or send us an <a class="opacity-60 font-black text-accent" href="mailto:oscarfal2006@gmail.com">email</a></p>
+    <p class="text-sm text-title-text mt-4">Or talk to us on <a class="link" href="https://twitter.com/oscarfalll" target="_blank">twitter</a> or send us an <a class="link" href="mailto:oscarfal2006@gmail.com">email</a></p>
 </div>
 
 <style lang="postcss">
@@ -82,5 +82,9 @@
 
     .section {
         @apply flex flex-col mt-8;
+    }
+
+    .link {
+        @apply font-black text-accent;
     }
 </style>
