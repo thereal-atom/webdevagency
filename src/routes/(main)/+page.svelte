@@ -4,23 +4,26 @@
 >
     Click here if you want a FREE website.
 </a> -->
-<div class="flex flex-col mt-8">
-    <h1 class="title">The Web Development Agency</h1>
-    <div class="flex flex-col mt-4">
-        <p class="paragraph">Whether you're a <span class="font-3">start-up with a limited budget</span></p>
-        <p class="paragraph">Or an <span class="font-3">individual who wants a good website</span></p>
-        <p class="paragraph">We can create you <span class="font-3">a website that makes you money</span>.</p>
-        <p class="paragraph">Using our technical specialty, we will craft <span class="font-3">an experience that your users will fall in love with</span>.</p>
+
+<div class="flex flex-col">
+    <div class="flex flex-col mt-8">
+        <h1 class="title">The Web Development Agency</h1>
+        <div class="flex flex-col mt-4">
+            <p class="paragraph">Whether you're a <span class="font-3">start-up with a limited budget</span></p>
+            <p class="paragraph">Or an <span class="font-3">individual who wants a good website</span></p>
+            <p class="paragraph">We can create you <span class="font-3">a website that makes you money</span>.</p>
+            <p class="paragraph">Using our technical specialty, we will craft <span class="font-3">an experience that your users will fall in love with</span>.</p>
+        </div>
     </div>
+    <a
+        class="mt-8 bg-accent px-8 py-2 rounded-md w-fit text-white font-black max-sm:text-sm max-sm:px-4 max-sm:mt-4"
+        href="/contact"
+    >
+        Contact Us
+    </a>
 </div>
-<a
-    class="mt-12 bg-accent px-8 py-2 rounded-md w-fit text-white font-black"
-    href="/contact"
->
-    Contact Us
-</a>
-<hr class="mt-16 mb-12"/>
-<div class="section">
+<hr />
+<div class="flex flex-col">
     <h1 class="title">What Can We Do For You</h1>
     <p class="paragraph">We tailor our service to each client's needs at <span class="font-3">any stage of business</span></p>
     <ul class="ml-4">
@@ -32,14 +35,14 @@
     </ul>
     <p class="paragraph"><span class="font-3">These are just some of the services we offer in order to take your business from start-up to a tech unicorn.</span></p>
 </div>
-<hr class="my-12"/>
-<div class="section">
+<hr />
+<div class="flex flex-col">
     <h1 class="title">How much does it cost </h1>
     <p class="paragraph">We offer flexible pricing options, ensuring <span class="font-3">our services align with diverse budgets and goals</span>.</p>
     <p class="paragraph">So whether you want a one-off website, or you want to work with us long-term, we have something for you.</p>
     <p class="paragraph"><span class="font-3">And we will work hard to offer the lowest price possible while still delivering a high quality product.</span></p>
 </div>
-<hr class="my-12 mb-16"/>
+<hr/>
 
 <style lang="postcss">
     .title {
@@ -50,11 +53,15 @@
         @apply text-paragraph-text my-4 max-sm:text-sm max-[380px]:text-xs;
     }
 
-    .section {
-        @apply flex flex-col mt-8;
-    }
-
     li {
         @apply list-disc;
+    }
+
+    hr {
+        @apply my-16 max-sm:my-8;
+    }
+
+    .font-3 {
+        @apply text-lg;
     }
 </style>
