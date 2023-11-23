@@ -49,11 +49,10 @@
 <style lang="postcss">
     .title {
         @apply text-2xl font-extrabold mb-4 text-title-text max-sm:text-lg max-[380px]:text-base;
-        vertical-align: middle;
     }
 
     .paragraph {
-        @apply text-paragraph-text my-4 max-sm:text-sm max-[380px]:text-xs inline-block;
+        @apply text-paragraph-text my-4 max-sm:text-sm max-[380px]:text-xs;
     }
 
     li {
