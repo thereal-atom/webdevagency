@@ -1,94 +1,28 @@
-<script>
-    import { page } from "$app/stores";
-
-    $: form = $page.form;
-</script>
-
-<a
+<!-- <a
     class="flex flex-row bg-accent bg-opacity-80 p-4 rounded-md text-white border border-solid border-accent max-sm:text-xs max-sm:p-3"
     href="/free"
 >
     Click here if you want a FREE website.
-</a>
+</a> -->
 <div class="flex flex-col mt-8">
     <h1 class="title">The Web Development Agency</h1>
     <div class="flex flex-col mt-4">
-        <p class="paragraph">I get it.</p>
-        <p class="paragraph">You're trying to run a start-up with a low budget and you need a website.</p>
-        <p class="paragraph">We can help you with that.</p>
-        <p class="paragraph">We specialize in creating budget-friendly websites for start-ups, empowering you to convert prospects into loyal customers. Let us help you transform your leads into revenue-generating relationships.</p>
+        <p class="paragraph">Whether you're a <span class="font-3">start-up with a limited budget</span></p>
+        <p class="paragraph">Or an <span class="font-3">individual who wants a good website</span></p>
+        <p class="paragraph">We can create you <span class="font-3">a website that makes you money</span>.</p>
+        <p class="paragraph">Using our technical specialty, we will craft <span class="font-3">an experience that your users will fall in love with</span>.</p>
     </div>
 </div>
-<div class="section">
-    <h1 class="title">Chat With Us</h1>
-    <div class="mt-4">
-        {#if form?.success}
-            <p class="text-green-400 text-sm">We received your message! We will get back to you soon :)</p>
-        {:else if form?.error}
-            <p class="text-red-500 text-sm">There was an error sending your message: {form.error}</p>
-        {/if}
-    </div>
-    <form 
-        class="contact-form flex flex-col mt-4"
-        method="POST"
-    >
-        <label 
-            class="label"
-            for="name"
-        >
-            Your Name
-        </label>
-        <input
-            class="input"
-            placeholder="John Doe"
-            name="name"
-            type="text"
-        />
-        <label 
-            class="label flex flex-row"    
-            for="email"
-        >
-            Your Email Address <p class="text-red-400 ml-0.5 mt-1 text-xs">*</p>
-        </label>
-        <input
-            class="input"
-            placeholder="johndoe@gmail.com"
-            name="email"
-            type="text"
-            required
-        />
-        <label 
-            class="label"    
-            for="message"
-        >
-            Your Message
-        </label>
-        <textarea
-            class="input min-h-[120px]"
-            name="message"
-            placeholder="I would like a website for my business..."
-            required
-        />
-        <button class="w-[500px] rounded-md mt-2 py-2 bg-black text-white transition-all max-sm:w-full hover:opacity-80 disabled:opacity-50 max-sm:text-sm">
-            Submit
-        </button>
-    </form>
-
-    <style lang="postcss">
-        .contact-form .input {
-            @apply w-[500px] my-1 px-4 py-2.5 rounded-md border border-dashed border-black border-opacity-30 placeholder:text-sm max-sm:w-full max-sm:text-sm max-sm:placeholder:text-xs;
-        }
-
-        .contact-form .label {
-            @apply my-1 text-black text-opacity-60 max-sm:text-sm;
-        }
-    </style>
-    <p class="text-sm text-title-text mt-4">Or talk to us on <a class="opacity-60 font-black text-accent" href="https://twitter.com/oscarfalll" target="_blank">twitter</a> or send us an <a class="opacity-60 font-black text-accent" href="mailto:oscarfal2006@gmail.com">email</a></p>
-</div>
-<hr class="mt-8 mb-4"/>
+<a
+    class="mt-12 bg-accent px-8 py-2 rounded-md w-fit text-white font-black"
+    href="/contact"
+>
+    Contact Us
+</a>
+<hr class="mt-16 mb-12"/>
 <div class="section">
     <h1 class="title">What Can We Do For You</h1>
-    <p class="paragraph">Transforming businesses online, our agency creates websites for every stage, no matter the starting point.</p>
+    <p class="paragraph">We tailor our service to each client's needs at <span class="font-3">any stage of business</span></p>
     <ul class="ml-4">
         <li class="paragraph">Front-end website</li>
         <li class="paragraph">Back-end API</li>
@@ -96,10 +30,16 @@
         <li class="paragraph">Database provisioning</li>
         <li class="paragraph">Monitoring and observability</li>
     </ul>
-    <p class="paragraph">There are just some of the services we offer in order to take your business from start-up to a tech unicorn.</p>
-    <p class="paragraph">We offer flexible pricing options, ensuring our services align with diverse budgets and goals.</p>
+    <p class="paragraph"><span class="font-3">These are just some of the services we offer in order to take your business from start-up to a tech unicorn.</span></p>
 </div>
 <hr class="my-12"/>
+<div class="section">
+    <h1 class="title">How much does it cost </h1>
+    <p class="paragraph">We offer flexible pricing options, ensuring <span class="font-3">our services align with diverse budgets and goals</span>.</p>
+    <p class="paragraph">So whether you want a one-off website, or you want to work with us long-term, we have something for you.</p>
+    <p class="paragraph"><span class="font-3">And we will work hard to offer the lowest price possible while still delivering a high quality product.</span></p>
+</div>
+<hr class="my-12 mb-16"/>
 
 <style lang="postcss">
     .title {
@@ -107,15 +47,7 @@
     }
 
     .paragraph {
-        @apply text-paragraph-text my-2 max-sm:text-sm max-[380px]:text-xs;
-    }
-
-    .contact-form .input {
-        @apply w-[500px] my-1 px-4 py-2.5 rounded-md border border-dashed border-black border-opacity-30 placeholder:text-sm max-sm:w-full max-sm:text-sm max-sm:placeholder:text-xs;
-    }
-
-    .contact-form .label {
-        @apply my-1 text-black text-opacity-60 max-sm:text-sm;
+        @apply text-paragraph-text my-4 max-sm:text-sm max-[380px]:text-xs;
     }
 
     .section {

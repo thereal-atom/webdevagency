@@ -22,6 +22,12 @@
                 </a>
                 <a
                     class="text-sm ml-4"
+                    href="/contact"
+                >
+                    Contact
+                </a>
+                <a
+                    class="text-sm ml-4"
                     href="/about"
                 >
                     About Us

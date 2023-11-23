@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-3 {
+    font-family: 'Nanum Pen Script', cursive;
+    @apply text-accent;
 }
