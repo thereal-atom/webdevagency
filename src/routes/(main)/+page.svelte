@@ -1,10 +1,3 @@
-<!-- <a
-    class="flex flex-row bg-accent bg-opacity-80 p-4 rounded-md text-white border border-solid border-accent max-sm:text-xs max-sm:p-3"
-    href="/free"
->
-    Click here if you want a FREE website.
-</a> -->
-
 <div class="flex flex-col">
     <div class="flex flex-col mt-8">
         <h1 class="title">The Web Development Agency</h1>
@@ -61,9 +54,5 @@
 
     hr {
         @apply my-16 max-sm:my-8;
-    }
-
-    .font-3 {
-        @apply text-xl mt-2;
     }
 </style>

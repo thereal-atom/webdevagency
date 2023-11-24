@@ -1,15 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Geist', sans-serif;
 }
 
 .font-3 {
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Kalam', cursive;
     @apply text-accent;
+}
+
+@font-face {
+    font-family: "Geist";
+    font-style: medium;
+    font-weight: 500;
+    src: url("/fonts/Geist-Medium.eot"); /* IE9 Compat Modes */
+    src: local(""), url("/fonts/Geist-Medium.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */ url("/fonts/Geist-Medium.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("/fonts/Geist-Medium.woff") format("woff"),
+        /* Modern Browsers */ url("/fonts/Geist-Medium.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("/fonts/Geist-Medium.svg#Lora") format("svg"); /* Legacy iOS */
 }
